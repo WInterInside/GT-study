@@ -41,7 +41,8 @@ img {
 .main-header{
   margin-top: -25px;
   position: relative;
-  height: 1079px;
+  min-height: 1079px;
+  width: 1920px;
   background-color: gray;
   background-image: url("../img/index/slide2.jpg");
   background-repeat: no-repeat;
@@ -57,7 +58,7 @@ img {
   min-height: 63px;
   background-color: white;
   align-items: center;
-   cursor: pointer;
+  cursor: pointer;
 }
 .menu-line {
   width: 32px;
@@ -84,7 +85,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-align-items: baseline;
+  align-items: baseline;
   list-style: none;
   padding-left: 320px;
   margin: 0;
@@ -92,8 +93,8 @@ align-items: baseline;
 .header-list h2 {
   font-size: 12px;
   font-weight: bold;
-    color: #fffefe;
-    text-transform: uppercase;
+  color: #fffefe;
+  text-transform: uppercase;
 }
 .header-list p,
 .header-list a {
@@ -103,4 +104,73 @@ align-items: baseline;
 }
 .header-list li:last-child {
   border-bottom: 1px solid  #fffefe;
+}
+.about {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-height: 1079px;
+  width: 1920px;
+  background-color: #ffffff;
+}
+.visit-site {
+  position: absolute;
+  background-color: #000000;
+  width: 60px;
+  height: 1px;
+  left: 350px;
+  bottom: 150px;
+}
+.about-1 a {
+  padding-left: 150px;
+}
+.about-1,
+.about-2 {
+   display: flex;
+   flex-direction: column;
+   min-height: 579px;
+   width: 800px;
+
+   }
+.about-1 {
+    padding-left: 320px;
+}
+.about-2 {
+    padding-right: 320px;
+    padding-top: 200px;
+}
+.about-1 h2{
+  font-size: 80px;
+  line-height: 100px;
+  margin: 0;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+.about-1 h3{
+  font-size: 33px;
+  line-height: 33px;
+  margin: 0;
+  padding-bottom: 430px;
+}
+.ragby-ph {
+  display: flex;
+  width: 1920px;
+  min-height: 1079px;
+}
+.for-logo-gt {
+  width: 252px;
+  height: 252px;
+  background-color: purple;
+}
+.ph-line-one {
+  display: flex;
+  flex-direction: column;
+  width: 252px;
+  min-height: 1079px;
+}
+.ph-line-two {
+  display: flex;
+  flex-direction: column;
+  width: 552px;
+  min-height: 1079px;
 }

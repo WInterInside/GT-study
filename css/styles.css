@@ -152,6 +152,9 @@ img {
   margin: 0;
   padding-bottom: 430px;
 }
+.about-1 a {
+  text-decoration: none;
+}
 .ragby-ph {
   display: flex;
   width: 1920px;
@@ -173,4 +176,31 @@ img {
   flex-direction: column;
   width: 552px;
   min-height: 1079px;
+}
+
+.campaign-totals {
+  min-height: 579px;
+  width: 800px;
+  background-color: white;
+}
+.totals-table {
+  min-height: 379px;
+  width: 600px;
+  border: 2px solid gray;
+  border-radius: 5% 5%;
+}
+
+footer {
+  min-height: 279px;
+  width: 800px;
+  background-color: white;
+}
+footer h2 {
+  padding-left: 300px;
+  margin: 0;
+  padding-top: 100px;
+}
+footer a{
+    text-decoration: none;
+  padding-left: 400px;
 }

@@ -146,7 +146,7 @@ img {
   padding-top: 200px;
   padding-bottom: 50px;
 }
-.about-1 h3{
+.about-1 h3 {
   font-size: 33px;
   line-height: 33px;
   margin: 0;
@@ -158,29 +158,49 @@ img {
 .ragby-ph {
   display: flex;
   width: 1920px;
-  min-height: 1079px;
+  min-height: 1987px;
 }
 .for-logo-gt {
-  width: 252px;
-  height: 252px;
-  background-color: purple;
+  width: 756px;
+  height: 568px;
+  background-color: #00254c;
 }
 .ph-line-one {
   display: flex;
   flex-direction: column;
-  width: 252px;
-  min-height: 1079px;
+  width: 756px;
+  min-height: 1987px;
 }
 .ph-line-two {
   display: flex;
   flex-direction: column;
-  width: 552px;
-  min-height: 1079px;
+  width: 1164px;
+  min-height: 1987px;
 }
-
+.typography-section {
+  width: 1920px;
+  min-height: 1308px;
+  background-color: #212025;
+  color: #ffffff;
+}
+.orange {
+  background-color: #b19142;
+  width: 547px;
+  min-height: 358px;
+}
+.blue {
+  background-color: #00254c;
+  width: 258px;
+  min-height: 358px;
+}
+.yellow {
+  background-color: #eeb211;
+  width: 258px;
+  min-height: 358px;
+}
 .campaign-totals {
   min-height: 579px;
-  width: 800px;
+  width: 1920px;
   background-color: white;
 }
 .totals-table {
@@ -192,15 +212,16 @@ img {
 
 footer {
   min-height: 279px;
-  width: 800px;
+  width: 1920px;
   background-color: white;
+
 }
 footer h2 {
-  padding-left: 300px;
+  padding-left: 1000px;
   margin: 0;
   padding-top: 100px;
 }
 footer a{
-    text-decoration: none;
-  padding-left: 400px;
+  padding-left: 1050px;
+  color: black;
 }

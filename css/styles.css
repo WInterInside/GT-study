@@ -59,6 +59,8 @@ img {
   background-color: white;
   align-items: center;
   cursor: pointer;
+  border-radius: 10px 10px;
+  box-shadow: 0 0 15px 1px;
 }
 .menu-line {
   width: 32px;
@@ -66,6 +68,7 @@ img {
   background-color: black;
   margin-top: 5px;
 }
+
 .menu-line:nth-child(1) {
   margin-top: 22px;
 }
@@ -216,8 +219,56 @@ img {
   padding-top: 50px;
   padding-right: 150px;
 }
+.about-design {
+    position: relative;
+  width:1920px;
+  background-color: #ffffff;
+  min-height: 3148px;
+  margin-top: -25px;
+}
+.section-discription {
+
+  width: 500px;
+  min-height: 600px;
+}
+
+.homepage {
+ display: flex;
+  min-height: 600px;
+  margin-right: auto;
+  justify-content: space-around;
+  padding-top: 150px;
+}
 
 
+.border-for-homepage {
+  position: absolute;
+  top: 60px;
+  right: 240px;
+  width: 400px;
+  min-height: 400px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 20px 20px;
+}
+
+.design {
+    display: flex;
+    flex-wrap: wrap;
+  min-height: 600px;
+  margin-right: auto;
+  justify-content: space-around;
+  padding-top: 150px;
+}
+
+.about-disign-image {
+    display: flex;
+    flex-wrap: wrap;
+  min-height: 600px;
+  margin-right: auto;
+  justify-content: space-around;
+  padding-top: 150px;
+}
 
 .campaign-totals {
   position: relative;

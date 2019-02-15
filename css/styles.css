@@ -430,7 +430,7 @@ padding-left: 50px;
 .block-of-quote{
   position: relative;
   color: #ffffff;
-  min-height: 679px;
+  min-height: 743px;
   width: 1920px;
   background-image: url("../img/index/for-quote.jpg");
   }
@@ -438,28 +438,35 @@ padding-left: 50px;
 .quote {
   position: absolute;
   font-size: 181px;
-  top: 100px;
-  left: 100px;
-  font-family: 'FactoriaW00-Demi';
+  top: 200px;
+  left: 500px;
 }
 
 .block-of-quote blockquote{
     margin: 0;
     font-size: 26px;
     line-height: 50px;
-    padding: 218px 360px 65px 621px;
+    padding: 218px 391px 61px 622px;
 }
 
 .block-of-quote cite {
   font-size: 26px;
   line-height: 34px;
-  padding-left: 550px;
+  font-style: normal;
+  font-weight: 100;
+  padding-left: 743px;
+}
+.block-of-quote p {
+  margin: 0;
+  padding-left: 743px;
+  font-size: 12px;
+  letter-spacing: 3px;
 }
 
 .line-for-cite {
   position: absolute;
   left: 625px;
-  bottom: 231px;
+  bottom: 195px;
   background-color: #ffffff;
   width: 97px;
   height: 1px;

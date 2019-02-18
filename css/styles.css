@@ -394,17 +394,202 @@ padding-left: 50px;
 .website-traffic-comparsison {
   min-height: 1597px;
 }
-!!!!!!!!!!!!!!
+ .first-line-data {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+ .fb-demographicks,
+ .google-demographicks{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
 .circle {
-  width: 100px;
-  height: 100px;
-  background: #ecf5e4;
+  width: 200px;
+  height: 200px;
+  background: transparent;
   border-radius: 50%;
-  border: 30px solid #95cd8b;
-  border-right: 30px solid #d0e6bb;
+  border: 30px solid orange;
+  border-left: 30px solid yellow;
   text-align: center;
-  font-size: 2em;
-  line-height: 100px;
+}
+.with-unk{
+  border-top: 30px solid lightgray;
+}
+.color-dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+.ml {
+  background-color: orange;
+}
+.fm {
+  background-color: yellow;
+}
+.unk {
+  background-color: lightgray;
+}
+
+.age {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.oy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  }
+
+.ox {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+}
+.ox p {
+  margin: 0;
+  padding-right: 20px;
+}
+
+.ox p:first-child::before,
+.ox p:first-child::after {
+  content: "";
+  position: absolute;
+  bottom: 50px;
+  width: 20px;
+  background-color: yellow;
+}
+.ox p:first-child::before {
+  height: 10px;
+  left: 85px;
+}
+.ox p:first-child::after {
+  height: 40px;
+  left: 140px;
+}
+
+
+.ox p:nth-child(3)::before,
+.ox p:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  bottom: 50px;
+  width: 20px;
+  background-color: yellow;
+}
+.ox p:nth-child(3)::before {
+  height: 140px;
+  left: 197px;
+}
+.ox p:nth-child(3)::after {
+  height: 100px;
+  left: 250px;
+}
+
+.ox p:last-child::before,
+.ox p:last-child::after {
+  content: "";
+  position: absolute;
+  bottom: 50px;
+  width: 20px;
+  background-color: yellow;
+}
+.ox p:last-child::before {
+  height: 140px;
+  left: 308px;
+}
+.ox p:last-child::after {
+  height: 100px;
+  left: 355px;
+}
+
+.google-demographicks .ox p:nth-child(6)::before {
+  content: "";
+  position: absolute;
+  bottom: 50px;
+  right: 35px;
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+}
+
+.oy p:first-child::before,
+.oy p:first-child::after {
+  content: "";
+  position: absolute;
+  left: 85px;
+  width: 300px;
+  height: 1px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.oy p:first-child::before {
+  top: 28px;
+}
+.oy p:first-child::after {
+  top: 78px;
+}
+
+.oy p:nth-child(3)::before,
+.oy p:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  left: 85px;
+  width: 300px;
+  height: 1px;
+  background-color: white;
+  opacity: 0.5;
+}
+.oy p:nth-child(3)::before {
+  top: 127px;
+}
+.oy p:nth-child(3)::after {
+  top:  177px;
+}
+
+.oy p:last-child::before {
+  content: "";
+  position: absolute;
+  left: 85px;
+  top:  226px;
+  width: 300px;
+  height: 1px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.google-demographicks .oy p::before,
+.google-demographicks .oy p::after {
+    width: 360px;
+}
+
+/*
+.18-24-fb
+.25-34-fb
+.35-44-fb
+.45-54-fb
+.55-64-fb
+.65-fb
+
+.18-24-gg
+.25-34-gg
+.35-44-gg
+.45-54-gg
+.55-64-gg
+.65-gg
+.unknown-gg
+*/
+
+.age-h {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  color: orange;
+  transform: rotate(-90deg);
 }
 .campaign-totals {
   position: relative;

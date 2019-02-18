@@ -133,19 +133,22 @@ img {
   width: 1920px;
   background-color: #ffffff;
 }
-.visit-site {
+
+.about-1 a::before {
+  content: "";
   position: absolute;
   background-color: #000000;
   width: 105px;
   height: 1px;
   left: 350px;
-  bottom: 168px;
+  bottom: 166px;
 }
 
 .about-1 a {
   padding-left: 150px;
   color: #000000;
 }
+
 .about-1,
 .about-2 {
    display: flex;
@@ -266,22 +269,20 @@ padding-left: 50px;
   margin-bottom: 50px;
 }
 
-.underline {
+.typography h3::before,
+.typography h3::after {
+  content: "";
   background-color: #ffffff;
   height: 1px;
   width: 327px;
   opacity: 0.5;
   position: absolute;
-        left: 250px;
-
+  left: 250px;
 }
-
-.typography-1 {
-
+.typography h3::before {
   bottom: 450px;
 }
-.typography-2 {
-
+.typography h3::after {
   bottom: 170px;
 }
 
@@ -689,7 +690,8 @@ padding: 20px 200px 0 50px;
   letter-spacing: 3px;
 }
 
-.line-for-cite {
+cite::before {
+  content: "";
   position: absolute;
   left: 625px;
   bottom: 195px;

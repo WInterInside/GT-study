@@ -1,3 +1,113 @@
+@font-face{
+
+font-family: "Plain-bold";
+
+src: url("../fonts/Plain/Plain-Bold.eot");
+
+src: url("../fonts/Plain/Plain-Bold.eot?iefix") format("eot"),
+
+url("../fonts/Plain/Plain-Bold.woff") format("woff"),
+
+url("../fonts/Plain/Plain-Boldt.ttf") format("truetype"),
+
+url("../fonts/Plain/Plain-Bold.svg#webfont") format("svg");
+}
+
+@font-face{
+
+font-family: "Plain-Light";
+
+src: url("../fonts/Plain/Plain-Light.eot");
+
+src: url("../fonts/Plain/Plain-Light.eot?iefix") format("eot"),
+
+url("../fonts/Plain/Plain-Light.woff") format("woff"),
+
+url("../fonts/Plain/Plain-Light.ttf") format("truetype"),
+
+url("../fonts/Plain/Plain-Light.svg#webfont") format("svg");
+}
+
+@font-face{
+
+font-family: "Plain-Medium";
+
+src: url("../fonts/Plain/Plain-Medium.eot");
+
+src: url("../fonts/Plain/Plain-Medium.eot?iefix") format("eot"),
+
+url("../fonts/Plain/Plain-Medium.woff") format("woff"),
+
+url("../fonts/Plain/Plain-Medium.ttf") format("truetype"),
+
+url("../fonts/Plain/Plain-Medium.svg#webfont") format("svg");
+
+}
+
+@font-face{
+
+font-family: "Plain-Regular";
+
+src: url("../fonts/Plain/Plain-Regular.eot");
+
+src: url("../fonts/Plain/Plain-Regular.eot?iefix") format("eot"),
+
+url("../fonts/Plain/Plain-Regular.woff") format("woff"),
+
+url("../fonts/Plain/Plain-Regular.ttf") format("truetype"),
+
+url("../fonts/Plain/Plain-Regular.svg#webfont") format("svg");
+
+}
+
+@font-face{
+
+font-family: "AdiHaus-Regular";
+
+src: url("../fonts/AdiHaus/AdiHaus-Regular.eot");
+
+src: url("../fonts/AdiHaus/AdiHaus-Regular.eot?iefix") format("eot"),
+
+url("../fonts/AdiHaus/AdiHaus-Regular.woff") format("woff"),
+
+url("../fonts/AdiHaus/AdiHaus-Regular.ttf") format("truetype"),
+
+url("../fonts/AdiHaus/AdiHaus-Regular.svg#webfont") format("svg");
+
+}
+
+@font-face{
+
+font-family: "TradeGothicLTStd-Bold";
+
+src: url("../fonts/TradeGothic/TradeGothicLTStd-Bold.eot");
+
+src: url("../fonts/TradeGothic/TradeGothicLTStd-Bold.eot?iefix") format("eot"),
+
+url("../fonts/TradeGothic/TradeGothicLTStd-Bold.woff") format("woff"),
+
+url("../fonts/TradeGothic/TradeGothicLTStd-Bold.ttf") format("truetype"),
+
+url("../fonts/TradeGothic/TradeGothicLTStd-Bold.svg#webfont") format("svg");
+
+}
+
+@font-face{
+
+font-family: "ProximaNova-Bold";
+
+src: url("../fonts/ProximaNova-Bold.eot");
+
+src: url("../fonts/ProximaNova-Bold.eot?iefix") format("eot"),
+
+url("../fonts/ProximaNova-Bold.woff") format("woff"),
+
+url("../fonts/ProximaNova-Bold.ttf") format("truetype"),
+
+url("../fonts/ProximaNova-Bold.svg#webfont") format("svg");
+}
+
+
 *, *::before, *::after {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
@@ -14,7 +124,7 @@ body {
     min-width: 1920px;
     margin: 0;
     padding: 0;
-    font-family: "PT Sans", "Arial", sans-serif;
+
     line-height: 21px;
     font-size: 14px;
     color: #000000;
@@ -84,9 +194,7 @@ img {
   font-weight: normal;
   color: #fffefe;
   padding: 400px 500px 150px 319px;
-
 }
-
 .header-list {
     display: flex;
     align-items: center;
@@ -110,6 +218,7 @@ img {
   color: #fffefe;
   text-transform: uppercase;
   margin-bottom: 20px;
+  letter-spacing: 3px;
 }
 
 .header-list p,
@@ -129,6 +238,7 @@ img {
   position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   min-height: 1079px;
   width: 1920px;
   background-color: #ffffff;
@@ -141,12 +251,16 @@ img {
   width: 105px;
   height: 1px;
   left: 350px;
-  bottom: 166px;
+  bottom: 216px;
 }
 
 .about-1 a {
   padding-left: 150px;
   color: #000000;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .about-1,
@@ -157,31 +271,38 @@ img {
    width: 800px;
    font-size: 18px;
    line-height: 34px;
+   font-family: "Plain-Light";
    }
 
 .about-1 {
-    padding: 200px 0 0 0;
-    margin: 0 0 0 319px;
+    padding-top: 207px;
+    margin-left: 320px;
 
 }
 .about-2 {
-    padding: 182px 316px 0 0;
+    padding: 182px 320px 0 0;
 }
 .about-1 h2{
   font-size: 90px;
   line-height: 90px;
   margin: 0;
   padding-bottom: 50px;
+  letter-spacing: -1px
 }
 .about-1 h3 {
   font-size: 40px;
   margin: 0;
-  padding-bottom: 430px;
+  padding-bottom: 375px;
 }
 .about-1 a {
   text-decoration: none;
 }
-
+.about h4 {
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .ragby-ph {
   display: flex;
   width: 1920px;
@@ -220,7 +341,7 @@ img {
 }
 .typography-section h2 {
   font-size: 40px;
-  font-weight:100;
+  font-weight: 100;
   opacity: 0.7;
   margin: 50px 0 122px 0;
 }
@@ -236,8 +357,8 @@ img {
 
 .typography {
   position: relative;
-  width: 800px;
-  margin: 50px 255px 0 157px;
+  width: 790px;
+  margin: 142px 243px 0 170px;
 }
 .typography  h2 {
 padding-left: 50px;
@@ -294,7 +415,8 @@ padding-left: 50px;
 
 }
 .color-pallete{
-      padding-top: 50px;
+  width: 548px;
+  margin: 142px 243px 0 0;
 }
 .palette-block {
   width: 258px;

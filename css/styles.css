@@ -669,7 +669,7 @@ padding-left: 50px;
 .website-traffic-comparsison {
   margin-top: 250px;
 }
-.website-traffic-comparsison   h2 {
+.website-traffic-comparsison h2 {
   margin-left: 800px;
   margin-bottom: 100px;
 }
@@ -687,6 +687,7 @@ padding-left: 50px;
   padding: 50px;
   z-index: 1;
 }
+
 .avg-increase {
   position: absolute;
   top: 50%;

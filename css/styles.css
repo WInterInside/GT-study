@@ -599,6 +599,30 @@ img {
   text-align: center;
   transform: rotate(45deg);
 }
+.donut {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform: rotate(-20deg);
+}
+.man {
+  position: absolute;
+  border: 37px solid #fac12a;
+  border-left: 37px solid transparent;
+  transform: rotate(70deg);
+  }
+.woman{
+  position: absolute;
+  border: 37px solid #ffda87;
+    border-left: 37px solid transparent;
+      transform: rotate(150deg);
+}
+.gray{
+  position: absolute;
+  border: 37px solid #cbcacb;
+  border-left: 37px solid transparent;
+  transform: rotate(40deg);
+}
 .with-unk{
   border-top: 37px solid #cbcacb;
 }
@@ -1069,6 +1093,7 @@ cite::before {
   height: 1px;
   opacity: 0.7;
 }
+
 
 footer {
   min-height: 472px;

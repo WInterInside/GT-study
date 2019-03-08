@@ -599,7 +599,7 @@ img {
   text-align: center;
   transform: rotate(45deg);
 }
-.donut {
+.donut-diagram {
   position: relative;
   width: 200px;
   height: 200px;
@@ -710,7 +710,7 @@ img {
 .ox p:first-child::after {
   content: "";
   position: absolute;
-  bottom: 32px;
+  bottom: 34px;
   width: 52px;
   background: linear-gradient(to bottom, #e4d2a0, #daa514);
 }
@@ -727,7 +727,7 @@ img {
 .ox p:nth-child(3)::after {
   content: "";
   position: absolute;
-  bottom: 32px;
+  bottom: 34px;
   width: 52px;
   background: linear-gradient(to bottom, #e4d2a0, #daa514);
 }
@@ -744,7 +744,7 @@ img {
 .ox p:last-child::after {
   content: "";
   position: absolute;
-  bottom: 32px;
+  bottom: 34px;
   width: 52px;
     background: linear-gradient(to bottom, #e4d2a0, #daa514);
 }
@@ -777,7 +777,7 @@ img {
 .google-demographicks .ox p:nth-child(6)::before {
   content: "";
   position: absolute;
-  bottom: 32px;
+  bottom: 34px;
   right: 98px;
   width: 52px;
   height: 54px;
